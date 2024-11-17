@@ -1,0 +1,138 @@
+html {
+    background-color: #3c3b3b;
+    color: aliceblue;
+}
+
+.top {
+    display: flex;
+    flex-flow: wrap;
+    grid-column-gap: 4.5rem;
+    justify-content: space-between;
+}
+
+.button.button-spacer {
+    background-color: rgb(0, 0, 0) ;
+    margin-right: 1rem;
+}
+
+.button {
+    border: 1px solid rgb(0, 0, 0) ;
+    background-color: rgb(179, 20, 20) ;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    justify-content: center;
+    padding: 10px 24px;
+    font-weight: 500;
+    transition: opacity .2s, color .2s, border-color .2s, background-color .2s;
+    display: flex;
+}
+
+.w-button {
+    color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    background-color: #3898ec;
+    border: .5;
+    border-radius: 0;
+    padding: 9px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.page-padding {
+    color: var(--dark-gray);
+    align-items: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border: solid black;
+    margin-top: 1rem;
+    border-width: 2px 0;
+}
+
+.container-large {
+    max-width: 80rem;
+}
+
+.inner-nav_bottom-components {
+    grid-column-gap: .5rem;
+    grid-row-gap: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+}
+
+.inner-nav_link-block {
+    color: aliceblue;
+    border-bottom: 2px solid #fff0;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: color .2s, border-color .4s;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.h1 {
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.author {
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+justify-content: space-evenly;
+}
+
+.f {
+    justify-self: end;
+    border: 2px solid black;
+    width: 20px;
+    padding-left: 5px;
+    position: absolute;
+    right: 200px
+}
+
+.t {
+    justify-self: center;
+    border: 2px solid black;
+    width: 16px;
+    padding-left: 5px;
+    position: absolute;
+    right: 160px;
+}
+ 
+.share {
+    border: 2px solid black;
+    width: 60px;
+    font-weight: 100;
+    padding-left: 5px;
+    position: absolute;
+    right: 80px;
+}
+
+
+.footer-img {
+    width: 45px;
+    height:45px;
+}
+
+.footer-text {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color:#3c3b3b;
+    }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="form.css">
+        <title>Form</title>
+    </head>
+    <nav id="navbar">
+        <div class="page-padding">
+            <div class="container-large">
+                <div class="inner-nav_bottom-components">
+                    <a class="inner-nav_link-block w-inline-block" rel="url" href="home.html">Home</a>
+                    <a class="inner-nav_link-block w-inline-block" rel="url" href="form.html">Form</a>
+                    <a class="inner-nav_link-block w-inline-block" rel="url" href="images.html">Images</a>
+                    <a class="inner-nav_link-block w-inline-block" rel="url" href="list.html">More</a>
+                </div>
+            </div>
+        </div> 
+    </nav>
+    <body>
+        <form action="/form-handling-url" method="post">
+            <fieldset class="form">
+
+                <legend class="legend">Add user</legend>
+            
+            <div class="first-name">
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+        
+            <div class="last-name">
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+        
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+        
+            <div class="status">
+                <label for="role"> Car Status</label>
+                <select id="role" name="user_role_name">
+                <option value="student">New</option>
+                <option value="instructor">Used</option>
+                <option value="guest">None</option>
+                </select>
+
+            </div>
+
+            <div class="date">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date">
+            </div>
+            
+            <p>Choose your favorite Car trim:</p>
+            
+            <div class="radio-button">
+                
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">Coupe</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">Sedan</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">SUV</label>
+            </div>
+
+            <div class="comments">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+            
+
+            <div class="checkbox">
+                <input type="checkbox" id="signup" name="signup" value="Signup">
+                <label for="signup">Sign up for news letter</label><br>
+                <input type="checkbox" id="terms" name="terms" value="Terms">
+                <label for="terms"> Agree to terms and conditions</label>
+            </div>
+        
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        
+            </fieldset>
+        </form>
+    </body>
+
+    <footer class="footer">
+        
+
+        <div class="footer-text">
+            <img  class="footer-img"  src="https://cdn.ferrari.com/cms/network/media/img/resize/5ca48a335d32fb0b9e2ac5b3-shell?" alt="">
+         <a>contact</a>
+         <a>About Us</a>
+         <a>Terms of Use</a>
+         <a>FAQ's</a>
+         <a>Privacy Policy</a>
+        </div>
+    </footer>
+</html>
